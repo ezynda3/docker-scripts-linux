@@ -1,0 +1,1 @@
+docker run --rm -i -v "$PWD:/go/src" justincormack/gvt "$@"
