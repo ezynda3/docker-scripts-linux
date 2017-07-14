@@ -1,0 +1,1 @@
+docker run --rm -it --net=host -p 8080 -v "$PWD:/app" -w /app desmart/truffle:3.2 "$@"

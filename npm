@@ -1,2 +1,2 @@
 #!/bin/zsh
-docker run --rm -it --net=host -v "$PWD:/app" -w /app ezynda3/node:7.7.2 npm "$@"
+docker run --rm -it -v "$PWD:/app" -w /app ezynda3/node:7.7.2 npm "$@"

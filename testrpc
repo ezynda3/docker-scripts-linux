@@ -1,0 +1,2 @@
+#!/bin/zsh
+docker run --rm -it -p 8545:8545 ezynda3/testrpc:latest testrpc "$@"
